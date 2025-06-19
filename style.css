@@ -1,0 +1,70 @@
+.container{
+    outline: auto;
+    padding: 40px;
+    width: 70%;
+}
+form {
+  width: 30px;
+
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+
+  font-weight: bold;
+}
+input{
+ width: 60px;
+  border-radius: 5px;
+  margin: auto;
+  margin-right: 4px;
+  padding: 12px;
+}
+select{
+  width: 120px;
+  border-radius: 5px;
+  padding: 12px;
+  margin: auto;
+  margin-right: 4px;
+}
+
+
+input:focus,
+select:focus {
+  border-color: #000000;
+  outline: none;
+  border: 2px solid #931313;
+}
+
+
+button:not(.hover) {
+  cursor: not-allowed; /* show "disabled" cursor */
+  opacity: 0.6; /* optional: make it look disabled */
+  pointer-events: none; /* optional: prevent clicks */
+  border: none;
+  background-color: #090909;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+}
+
+
+button.hover {
+  background-color: #090909;
+  /* Add other styles you want when 'hover' class is added */
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  cursor: pointer;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+}
+#result{
+    display: block;
+    font-size: 30px;
+    color: #208d44;
+    margin-top: 20px;
+}
